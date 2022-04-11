@@ -1,10 +1,15 @@
-import Logo from './Components/introLogo'
+import Logo from "./Components/IntroLogo";
+import Header from "./Components/Header"
+import "./Styles/background.css";
 
 function App() {
-  console.log(Logo);
   return (
     <div className="App">
-       <Logo/>
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <Logo />
+      <Header/>
     </div>
   );
 }
