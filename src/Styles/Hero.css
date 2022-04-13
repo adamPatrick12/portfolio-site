@@ -1,7 +1,6 @@
 .HeroContainer{
     margin-top: 7rem;
     color: black;
-    
     width: 100%;
     height: 70vh;
     display: flex;
@@ -18,7 +17,7 @@
   
 }
 
-.Emoji{
+.EmojiContainer{
     height: 400px;
     width: 400px;
     margin-top: 50px;
@@ -69,6 +68,11 @@
     margin-left: 10px;
 }
 
+.Memoji{
+    width: 400px;
+    height: 400px;
+}
+
 .APContainer{
     display: flex;
     flex-direction: row;
@@ -81,4 +85,93 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 100;
     letter-spacing: 2px;
+}
+
+  @media only screen and (max-width: 1200px) {
+    .HeroTextContainer {
+        width: 500px;
+    }
+
+    .HeroTextContainer {
+        margin-top: 0;
+    }
+
+    .EmojiContainer{
+        height: 300px;
+        width: 300px;
+        margin: -50px;
+        margin-right: 2rem;
+    }
+
+    .Memoji{
+        height: 400px;
+        width: 400px;
+       
+    }
+  }
+
+  @media only screen and (max-width: 833px){
+    .HeroContainer {
+        margin-top: 0.5rem;
+    }
+
+    .Memoji{
+        height: 250px;
+        width: 250px;
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+  }
+
+  @media only screen and (max-width: 514px) {
+    .HeroTextContainer {
+        margin-top: 1rem;
+    }
+
+    .IM{
+        font-size: 30px;
+        margin-top: -10px;
+    }
+
+    .EmojiContainer{
+        margin-top: -70px;
+    }
+
+    .AP{
+        font-size: 30px;
+        margin-top: -10px;
+    }
+
+    .Greeting{
+        font-size: 40px;
+    }
+
+    .Wave{
+        font-size: 50px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    .About{
+        font-size: 20px;
+    }
+
+  }
+
+  @media only screen and (max-width: 414px) {
+    
+    .HeroContainer {
+        margin-top: 1rem;
+    }
+    .EmojiContainer{
+        margin-top: -80px;
+        margin-left: 20px;
+        margin-bottom: -100px;
+    }
+    
+    .Memoji {
+        height: 200px;
+        width: 200px;
+    }
 }

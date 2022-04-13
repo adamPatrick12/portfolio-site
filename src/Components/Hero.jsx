@@ -29,8 +29,8 @@ const Hero = () => {
                 and everything in between.
                 </div>
             </div>
-            <div className="Emoji">
-                <img src={Memoji} alt="" />
+            <div className="EmojiContainer">
+                <img className="Memoji" src={Memoji} alt="" />
             </div>
         </div>
     )

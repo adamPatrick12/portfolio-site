@@ -13,7 +13,8 @@ body{
     position: absolute;
     top: 0px;
     left: 0px;
-    animation: fade-out 1s ease forwards 3s;
+    animation: fade-out 2s ease forwards 3s;
+    animation: move-out 2s ease forwards 4s;
     z-index: 3;
 }
 
@@ -58,7 +59,14 @@ body{
 
 @keyframes fade-out{
     to{
-         left: -3000px;
+         opacity: 0;
     }
 }
+
+@keyframes move-out{
+    to{
+         top: -3000px;
+    }
+}
+
 

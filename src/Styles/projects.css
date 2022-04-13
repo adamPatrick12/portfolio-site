@@ -1,0 +1,407 @@
+.Projects{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+.projectsContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.c{
+    color: transparent;
+    font-size: 1rem;
+    margin-left: 50rem;
+}
+
+.TitleContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Title{
+    color:#DFD498;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: flex;
+}
+
+.Project{
+    width: 80%;
+    height: 450px;
+    border: 1px solid #DFD498;
+    margin-top: 3rem;
+    background-color: black;
+    z-index: 3;
+    opacity: 0.85;
+    border-radius: 12px;
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+}
+
+.ProjectTextContainer{
+    width: 40%;
+    margin-left: 5.5rem;
+}
+
+.ProjectTitle{
+    white-space: nowrap;
+    color: white;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.ProjectDesc{
+    height: 230px;
+    margin-top: 40px;
+    color: white;
+    width: 90%;
+    font-size: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.ProjectIMGContainer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+.ProjectIMG{
+   width: 600px;
+   height: 350px;
+   z-index: 5;
+   border-radius: 12px;
+   border: 1px solid #DFD498
+}
+
+.ProjectButton{
+    margin-top: 10px;
+}
+
+.DemoBTN{
+    width: 140px;
+    height: 40px;
+    margin-right: 160px;
+    background-color: #DFD498;
+    border: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+
+.CodeBTN{
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    color: #DFD498;
+    font-size: 17px;
+    border-radius: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    z-index: 2;
+
+}
+
+
+
+@media only screen and (max-width: 1070px){
+    .c {
+        margin-left: 10rem ;
+    }
+}
+
+@media only screen and (max-width: 514px){
+    .Title {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    .ProjectIMG {
+        width: 550px;
+        height: 300px;;
+    }
+
+    .ProjectDesc{
+        font-size: 25px;
+    }
+
+    .ProjectTextContainer{
+        margin-left: 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 1465px){
+    .ProjectIMG {
+        width: 520px;
+        height: 300px;;
+    }
+
+    .ProjectTextContainer{
+        margin-left: 4rem;
+    }
+
+    .DemoBTN{
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 1320px){
+    .ProjectIMG {
+        width: 450px;
+        height: 280px;
+        margin-right: 60px;
+    }
+
+    .ProjectDesc{
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .DemoBTN{
+        margin-right: 20px;
+    }
+
+    .ProjectTextContainer{
+        margin-left: 3.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 1030px){
+    
+    .ProjectIMG {
+        width: 400px;
+        height: 230px;
+        margin-right: 60px;
+    }
+
+    .ProjectDesc{
+        font-size: 18px;
+        margin-top: 60px;
+    }
+
+    .ProjectTitle{
+        margin-top: 30px;
+    }
+
+    .ProjectButton{
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 940px){
+    .ProjectDesc{
+        display: none;
+    }
+
+    .ProjectIMG {
+        width: 550px;
+        height: 300px;
+        margin-right: 60px;
+        position: relative;
+        right: 145px;
+        top: 10px;
+    }
+    
+    .DemoBTN{
+        position: relative;
+        left: 120px;
+        top: 320px;
+        margin: 0;
+    }
+
+    .ProjectTitle{
+        font-size: 40px;
+    }
+
+    .CodeBTN{
+        position: relative;
+        left: 280px;
+        top: 320px;
+        margin: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 883px){
+    
+    .DemoBTN{
+        position: relative;
+        left: 100px;
+        top: 325px;
+        margin: 0;
+    }
+
+    .CodeBTN{
+        position: relative;
+        left: 220px;
+        top: 325px;
+        margin: 0;
+    }
+
+    .ProjectIMG {
+        width: 500px;
+        height: 250px;
+        margin-left: 45px;
+    }
+}
+
+@media only screen and (max-width: 874px){
+    .CodeBTN{
+        position: relative;
+        left: 340px;
+        top: 285px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 749px){
+    
+    .DemoBTN{
+        position: relative;
+        left: 40px;
+        top: 325px;
+        margin: 0;
+    }
+
+    .CodeBTN{
+        position: relative;
+        left: 320px;
+        top: 285px;
+        margin: 0;
+    }
+
+    .ProjectIMG {
+        width: 450px;
+        height: 250px;
+        margin-left: 90px;
+    }
+
+}
+
+@media only screen and (max-width: 666px){
+    
+    .DemoBTN{
+        position: relative;
+        left: 10px;
+        top: 315px;
+        margin: 0;
+       
+    }
+
+    .CodeBTN{
+        position: relative;
+        left: 260px;
+        top: 275px;
+        margin: 0;
+    }
+
+    .ProjectIMG {
+        width: 400px;
+        height: 230px;
+        margin-left: 90px;
+    }
+
+    .ProjectTitle{
+        margin-top: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 590px){
+    
+    .DemoBTN{
+        display: none;
+       
+    }
+
+    .CodeBTN{
+        position: relative;
+        left: 110px;
+        top: 310px;
+        margin: 0;
+    }
+
+    .ProjectIMG {
+        width: 350px;
+        height: 220px;
+        margin-left: 120px;
+    }
+
+    .ProjectTitle{
+        font-size: 40px;
+        margin-top: 40px;
+        white-space: nowrap;
+        margin-right: 1000px;
+    }
+
+}
+
+
+@media only screen and (max-width: 534px){
+    
+    .CodeBTN{
+        position: relative;
+        left: 90px;
+        top: 300px;
+        margin: 0;
+    }
+
+    .ProjectIMG {
+        width: 290px;
+        height: 180px;
+        margin-left: 145px;
+    }
+
+}
+
+@media only screen and (max-width: 485px){
+    
+    .CodeBTN{
+        position: relative;
+        left: 60px;
+        top: 300px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 440px){
+    
+    .CodeBTN{
+        position: relative;
+        left: 40px;
+        top: 300px;
+        margin: 0;
+    }
+
+    .ProjectTitle{
+        position: relative;
+        right: 35px;
+        font-size: 40px;
+    }
+}

@@ -33,3 +33,38 @@
     letter-spacing: 2px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1020px) {
+    .Nav{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .Nav{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Nav{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 15px;
+    }
+    .Logo{
+        width: auto;
+        margin-left: 20px;
+        width: 40px;
+        height: 28px
+    }
+
+}
+
+@media only screen and (max-width: 445px){
+    .Navigation{
+        display: none;
+    }
+}

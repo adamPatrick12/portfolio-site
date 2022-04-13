@@ -1,6 +1,7 @@
 import Logo from "./Components/IntroLogo";
 import Header from "./Components/Header"
 import Hero from "./Components/Hero"
+import Project from './Components/Projects'
 import "./Styles/background.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Logo />
       <Header/>
       <Hero/>
+      <Project/>
     </div>
   );
 }
