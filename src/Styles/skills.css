@@ -1,0 +1,85 @@
+.SkillsMainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.SkillsContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.Coding{
+    width: 550px;
+    height: 300px;
+}
+
+.GameDesign{
+    width: 550px;
+    height: 300px;
+}
+
+.SubTitle{
+    white-space: nowrap;
+    color: white;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+.SkillsBoxContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.SkillsBox{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border: 1px solid #DFD498;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: 7px;
+    margin-right: 20px;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.skill{
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1099px){
+    .GameDesign{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 1099px){
+    .Coding{
+        margin-bottom: 100px;
+        margin-left: 50px;
+    }
+
+    .GameDesign{
+        margin-left: 50px;
+    }
+}

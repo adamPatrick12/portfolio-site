@@ -4,6 +4,8 @@
     width: 100%;
     overflow: hidden;
     z-index: -100;
+    margin: 0;
+    padding: 0;
   }
   
   #stars {

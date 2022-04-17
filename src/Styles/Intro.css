@@ -69,4 +69,10 @@ body{
     }
 }
 
+@keyframes unlock-scolling{
+    to{
+        overflow-y: scroll;
+   }
+}
+
 

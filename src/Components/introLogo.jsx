@@ -1,7 +1,12 @@
 import "../Styles/Intro.css";
+import React,  {useEffect} from 'react'
 
-const introLogo = () => {
+const IntroLogo = () => {
  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="IntroBG">
       <div className="logoContainer">
@@ -29,4 +34,4 @@ const introLogo = () => {
   );
 };
 
-export default introLogo;
+export default IntroLogo;

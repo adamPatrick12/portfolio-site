@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     width: 100vw;
-   
     justify-content: center;
     align-items: center;
 }
@@ -109,6 +108,7 @@
     font-weight: 300;
     letter-spacing: 2px;
     z-index: 2;
+    cursor: pointer;
 }
 
 .CodeBTN{
@@ -123,7 +123,27 @@
     font-weight: 300;
     letter-spacing: 2px;
     z-index: 2;
+    cursor: pointer;
+}
 
+.NFT-Title{
+    white-space: nowrap;
+    color: white;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.WeatherTitle{
+    white-space: nowrap;
+    color: white;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
 }
 
 
@@ -209,6 +229,14 @@
         margin-top: 30px;
     }
 
+    .NFT-Title{
+        margin-top: 30px;
+    }
+
+    .WeatherTitle{
+        margin-top: 15px;
+    }
+
     .ProjectButton{
         margin-top: 0px;
     }
@@ -236,6 +264,10 @@
     }
 
     .ProjectTitle{
+        font-size: 40px;
+    }
+
+    .NFT-Title{
         font-size: 40px;
     }
 
@@ -356,8 +388,6 @@
     .ProjectTitle{
         font-size: 40px;
         margin-top: 40px;
-        white-space: nowrap;
-        margin-right: 1000px;
     }
 
 }
@@ -388,6 +418,13 @@
         top: 300px;
         margin: 0;
     }
+    
+    .WeatherTitle{
+        position: relative;
+        right: 0px;
+        top: 30px;
+        font-size: 40px;
+    }
 }
 
 @media only screen and (max-width: 440px){
@@ -404,4 +441,71 @@
         right: 35px;
         font-size: 40px;
     }
+}
+
+@media only screen and (max-width: 414px){
+    
+    .CodeBTN{
+        position: relative;
+        left: 40px;
+        top: 280px;
+        margin: 0;
+    }
+
+    .ProjectTitle{
+        position: relative;
+        right: 40px;
+        font-size: 38px;
+    }
+
+    .Title{
+        margin-left: 80px;
+        white-space: nowrap;
+    }
+
+    .NFT-Title{
+        position: relative;
+        top: 20px;
+    }
+
+    .WeatherTitle{
+        position: relative;
+        right: 20px;
+        top: 30px;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    
+    .CodeBTN{
+        position: relative;
+        left: 40px;
+        top: 280px;
+        margin: 0;
+    }
+
+    .Title{
+        margin-left: 90px;
+        white-space: nowrap;
+    }
+
+    .ProjectTitle{
+        position: relative;
+        right: 50px;
+        font-size: 38px;
+    }
+    .NFT-Title{
+        position: relative;
+        right: 10px;
+    }
+
+    .WeatherTitle{
+        position: relative;
+        right: 30px;
+        top: 30px;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
 }
