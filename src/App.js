@@ -5,6 +5,7 @@ import Project from './Components/Projects'
 import Skills from './Components/Skills'
 import Contact from './Components/Contact'
 import "./Styles/background.css";
+import Footer from "./Components/Footer";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Project/>
       <Skills/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

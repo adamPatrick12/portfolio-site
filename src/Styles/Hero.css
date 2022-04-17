@@ -108,11 +108,15 @@
         width: 400px;
        
     }
+
+    .HeroContainer {
+        margin-top: 15rem;
+    }
   }
 
   @media only screen and (max-width: 833px){
     .HeroContainer {
-        margin-top: 0.5rem;
+        margin-top: 5rem;
     }
 
     .Memoji{
@@ -162,7 +166,7 @@
   @media only screen and (max-width: 414px) {
     
     .HeroContainer {
-        margin-top: 1rem;
+        margin-top: 4rem;
     }
     .EmojiContainer{
         margin-top: -80px;

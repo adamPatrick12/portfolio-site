@@ -1,7 +1,13 @@
 body{
     margin: 0;
     padding: 0;
+    overflow-y: hidden;
+    animation: unlock-scolling 2s ease forwards 4s;
 }
+
+.scrollable-element {
+    scrollbar-color: red yellow;
+  }
 
 .IntroBG{
     background-color: black;
@@ -15,7 +21,7 @@ body{
     left: 0px;
     animation: fade-out 2s ease forwards 3s;
     animation: move-out 2s ease forwards 4s;
-    z-index: 3;
+    z-index: 100;
 }
 
 .logoContainer{
@@ -65,7 +71,7 @@ body{
 
 @keyframes move-out{
     to{
-         top: -3000px;
+         opacity: 0;
     }
 }
 

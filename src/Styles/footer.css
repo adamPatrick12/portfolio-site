@@ -1,0 +1,47 @@
+.FooterContainer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border-top: #DFD498 1px solid;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.Develop{
+    white-space: nowrap;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Copyright{
+    white-space: nowrap;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.Fill{
+    width: 440px;
+}
+
+@media only screen and (max-width: 1099px){
+    .Develop{
+        display: none;
+    }
+
+    .Fill{
+        display: none;
+    }
+}

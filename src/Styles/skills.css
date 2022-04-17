@@ -83,3 +83,15 @@
         margin-left: 50px;
     }
 }
+
+@media only screen and (max-width: 434px){
+    .SkillsContainer{
+        margin-left: 65px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .SkillsContainer{
+        margin-left: 50px;
+    }
+}
