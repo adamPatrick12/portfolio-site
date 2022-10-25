@@ -109,6 +109,11 @@
     letter-spacing: 2px;
     z-index: 2;
     cursor: pointer;
+    transition: box-shadow .3s;
+}
+
+.DemoBTN:hover{
+    box-shadow: 0 0 30px rgba(216, 208, 117, 0.851); 
 }
 
 .CodeBTN{
@@ -124,6 +129,11 @@
     letter-spacing: 2px;
     z-index: 2;
     cursor: pointer;
+    transition: box-shadow .3s;
+}
+
+.CodeBTN:hover{
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.851); 
 }
 
 .NFT-Title{

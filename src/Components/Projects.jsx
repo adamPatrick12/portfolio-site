@@ -26,7 +26,7 @@ const Projects = () => {
                     A music application that combines 
                     multiple different music genres 
                     into one place. Mostly consisting 
-                    off low-fidelity (Lofi), synthwave, 
+                    of low-fidelity (Lofi), synthwave, 
                     jazz and ambient noise. Built using React, 
                     JavaScript (ES6) and the Youtube API
                     
