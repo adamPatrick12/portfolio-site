@@ -6,6 +6,7 @@ import Skills from './Components/Skills'
 import Contact from './Components/Contact'
 import "./Styles/background.css";
 import Footer from "./Components/Footer";
+import Experience from "./Components/Experience";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Logo />
       <Header/>
       <Hero/>
+      <Experience/>
       <Project/>
       <Skills/>
       <Contact/>

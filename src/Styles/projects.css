@@ -42,7 +42,7 @@
     margin-top: 3rem;
     background-color: black;
     z-index: 3;
-    opacity: 0.85;
+    opacity: 0.75;
     border-radius: 12px;
     display: flex;
     justify-content: row;
@@ -496,8 +496,9 @@
     }
 
     .Title{
-        margin-left: 90px;
+        margin-left: 50px;
         white-space: nowrap;
+        font-size: 40px;
     }
 
     .ProjectTitle{

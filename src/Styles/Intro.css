@@ -21,7 +21,7 @@ body{
     left: 0px;
     animation: fade-out 2s ease forwards 3s;
     animation: move-out 2s ease forwards 4s;
-    z-index: 100;
+    z-index: 10000;
 }
 
 .logoContainer{
