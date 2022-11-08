@@ -4,10 +4,11 @@ import BulletPoint from "../Images/Point.png";
 const Experience = () => {
   return (
     <div className="experienceContainer">
-      <div className="TitleExperience">
-        / Experience
+      <div className="TitleContainer2">
+        <div className="Title">/ Experience</div>
         <div className="c">Fill</div>
       </div>
+
       <div className="ExperienceRoleContainer">
         <div className="ExperienceTitleContainer">
           <div className="title">Software Developer @</div>
