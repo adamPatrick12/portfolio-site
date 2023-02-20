@@ -3,7 +3,7 @@ import Memoji from "../Images/character.png";
 
 const Hero = () => {
   return (
-    <div className="HeroContainer">
+    <div id="about" className="HeroContainer">
       <div className="HeroTextContainer">
         <div className="WaveContainer">
           <div className="Greeting">Hey There!</div>

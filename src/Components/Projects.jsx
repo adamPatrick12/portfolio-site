@@ -10,7 +10,7 @@ import NFTStoreIMG from "../Images/nftstore.png";
 
 const Projects = () => {
   return (
-    <div className="Projects">
+    <div id="projects" className="Projects">
       <div className="TitleContainer">
         <div className="Title">/ Portfolio</div>
         <div className="c">Fill</div>

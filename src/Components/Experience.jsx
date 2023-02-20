@@ -3,7 +3,7 @@ import BulletPoint from "../Images/Point.png";
 
 const Experience = () => {
   return (
-    <div className="experienceContainer">
+    <div id="work" className="experienceContainer">
       <div className="TitleContainer2">
         <div className="Title">/ Experience</div>
         <div className="c">Fill</div>

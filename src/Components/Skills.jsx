@@ -14,7 +14,7 @@ import { SiTypescript } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div className="SkillsMainContainer">
+    <div id="skills" className="SkillsMainContainer">
       <div className="TitleContainer">
         <div className="Title">/ Skills</div>
         <div className="c">Fill</div>
