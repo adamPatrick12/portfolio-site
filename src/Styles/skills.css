@@ -84,10 +84,14 @@
     }
 }
 
-@media only screen and (max-width: 434px){
+@media only screen and (max-width: 435px){
     .SkillsContainer{
         margin-left: 65px;
     }
+
+    .Coding{
+        margin-bottom: 230px;
+       }
 }
 
 @media only screen and (max-width: 414px){
