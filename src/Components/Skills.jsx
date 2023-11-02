@@ -29,7 +29,15 @@ const Skills = () => {
             <div className="SkillsBox">
               <IoLogoJavascript className="skill" />
             </div>
-            <div className="SkillsBox">
+            <div
+              onClick={() =>
+                window.open(
+                  "https://en.wikipedia.org/wiki/Succulent_plant",
+                  "_blank"
+                )
+              }
+              className="SkillsBox"
+            >
               <FaPython className="skill" />
             </div>
             <div className="SkillsBox">
